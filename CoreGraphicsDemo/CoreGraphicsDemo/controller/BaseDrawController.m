@@ -173,7 +173,6 @@
             continue;
         }
         NSString *rate = index1.stringValue;
-        NSNumber * range=[pWeekRateArr objectAtIndex:2];
         NSTimeInterval time = [[pWeekRateArr objectAtIndex:0]doubleValue];//1970年到现在的豪秒
         NSString* dateString = [self dateFormate:time];
         [valueArray_y addObject:rate];
@@ -248,14 +247,6 @@
 {
     NSLog(@"delloc");
 }
-/*
-#pragma mark - Navigation
 
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
-}
-*/
 
 @end

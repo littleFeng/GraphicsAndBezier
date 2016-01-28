@@ -20,9 +20,10 @@
 -(NSArray * )dataOFValueForYAxisInLsChartView:(LSChartView * )view;
 -(CGFloat)valueOfMaxYInLsChartView:(LSChartView * )view;
 -(CGFloat)valueOfMinYInLsChartView:(LSChartView * )view;
--(NSInteger)numberOFpointsForYAxisInLsChartView:(LSChartView * )view;
 
 @optional
+-(NSInteger)numberOFpointsForYAxisInLsChartView:(LSChartView * )view;
+
 //手指移动时的回调
 -(void)LsChartView:(LSChartView * )view didMoveFingerInDataIndex:(NSInteger)index ;
 

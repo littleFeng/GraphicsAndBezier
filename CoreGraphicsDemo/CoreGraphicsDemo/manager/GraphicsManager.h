@@ -10,7 +10,7 @@
 #import <UIKit/UIKit.h>
 #import <CoreGraphics/CoreGraphics.h>
 
-
+//cpu 损耗  重复绘制时未见内存增长 异常 
 
 @interface GraphicsManager : NSObject
 
